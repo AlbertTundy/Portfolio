@@ -5,8 +5,7 @@ import React from "react"
 const Footer = () => {
     return (
         <>
-        This is the footer
-
+        <footer>This is a footer</footer>
         </>
     )
 }
