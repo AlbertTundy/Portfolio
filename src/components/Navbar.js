@@ -1,17 +1,18 @@
 import React from "react"
 import {Link, NavLink} from "react-router-dom"
-
+import "../App.css"
 
 class Navbar extends React.Component{
 
     render() {
         return (
             <>
-               <nav> 
-                   This is the Navbar  
-                   <div>
-                       <ul>
-                           <li>
+           
+               <nav className = "nav">   
+                {/* <div className="container"> */}
+                   <div className = "navbar_div">
+                       <ul className = "navbar">
+                           <li className = "navbar_item">
                                <NavLink 
                                 className = "nav-link"
                                 activeClassName = "active"
@@ -21,7 +22,7 @@ class Navbar extends React.Component{
                                 Home
                                </NavLink>
                            </li>
-                            <li>
+                            <li className = "navbar_item">
                                <NavLink 
                                 className = "nav-link"
                                 activeClassName = "active"
@@ -31,7 +32,7 @@ class Navbar extends React.Component{
                                 Contact
                                </NavLink>
                            </li>
-                            <li>
+                            <li className = "navbar_item" >
                                <NavLink 
                                 className = "nav-link"
                                 activeClassName = "active"
@@ -46,7 +47,7 @@ class Navbar extends React.Component{
 
 
 
-
+                {/* </div> */}
                </nav>
             </>
         )
