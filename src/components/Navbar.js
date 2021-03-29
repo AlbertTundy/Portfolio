@@ -9,7 +9,7 @@ class Navbar extends React.Component{
             <>
            
                <nav className = "nav">   
-                {/* <div className="container"> */}
+                <div className="container">
                    <div className = "navbar_div">
                        <ul className = "navbar">
                            <li className = "navbar_item">
@@ -47,7 +47,7 @@ class Navbar extends React.Component{
 
 
 
-                {/* </div> */}
+                </div>
                </nav>
             </>
         )
