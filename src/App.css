@@ -36,3 +36,8 @@ body {
   text-align: "center";
   padding: 30px;
 }
+/* ----------- Profile Picture-------------- */
+.aboutMePic {
+  height: 300px;
+  width: 300px;
+}

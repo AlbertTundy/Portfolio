@@ -10,9 +10,6 @@ const StyledCol = styled.div`
        :hover {
         border-color: red
     }
-    padding: 30px;
-
-
 `
 const GridComponent= (props) => {
     return (
