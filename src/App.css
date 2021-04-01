@@ -6,8 +6,8 @@ body {
 
 /* -------------- NAVBAR ----------------------- */
 .nav {
-  border-bottom: 2px solid yellow;
-  background-color: black;
+  border-bottom: 2px solid rgb(3, 241, 102);
+  background-color: rgb(22, 22, 22);
   width: 100%;
 }
 .navbar {
@@ -18,7 +18,7 @@ body {
 .navbar_div {
 }
 .navbar_item {
-  color: white !important;
+  color: rgb(195, 248, 232) !important;
   list-style-type: none;
   text-decoration: none;
 }
@@ -26,7 +26,7 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: x-large;
-  color: white;
+  color: rgb(195, 248, 232);
   cursor: pointer;
 }
 /* -----------Project Cards--------- */
@@ -40,4 +40,75 @@ body {
 .aboutMePic {
   height: 300px;
   width: 300px;
+}
+/*----------Contacts Component-------------*/
+.Contacts {
+  background-color: rgb(22, 22, 22);
+  padding: 3rem 0;
+}
+.Contacts h1 {
+  color: rgb(3, 241, 102);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+.Contacts p {
+  color: rgb(195, 248, 232);
+  font-size: 1.2rem;
+}
+/*------------------inputs------------*/
+.Contacts input,
+.Contacts textarea {
+  color: rgb(3, 241, 102);
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid rgb(195, 248, 232);
+  border-radius: 0;
+  color: rgb(195, 248, 232);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 0.11rem;
+  padding-left: 0 !important;
+}
+
+.Contacts .container {
+  padding: 4rem 0;
+}
+
+.Contacts input:focus,
+.Contacts textarea:focus {
+  background: transparent;
+  color: rgb(3, 241, 102);
+  border-bottom: 2px solid rgb(22, 22, 22);
+}
+.Contacts textarea {
+  height: 10rem !important;
+}
+.contact-btn {
+  margin: 1rem 0 0 0;
+  background: none;
+  width: 100%;
+  color: rgb(3, 241, 102);
+}
+.line {
+  top: -0.8rem;
+  position: relative;
+  width: 0;
+  height: 0.125rem;
+  background: rgb(3, 241, 102);
+  display: inline-block;
+}
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+input.form-control {
+  margin: -0.3rem 0;
+}
+input.textarea {
+  margin: -0.3rem 0;
 }

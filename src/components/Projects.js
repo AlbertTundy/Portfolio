@@ -1,12 +1,14 @@
+import {Container, Row, Col} from "reactstrap"
 import React from "react"
 import GridComponent from "./Grid"
-import {Container, Row, Col} from "reactstrap"
+
 import "../App.css"
 import urban from "./images/urban.png"
 import communityCar from "./images/CommunityCarShare.png"
 import burger from "./images/burger.png"
 import noteTaker from "./images/note.png"
 import dragon from "./images/dragon.png"
+
 const Projects = () => {
     return (
         <>
