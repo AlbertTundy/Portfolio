@@ -18,9 +18,9 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav" href="https://github.com/AlbertTundy">GitHub</a>
+                                <a className="footer-nav" href="https://github.com/AlbertTundy" target="_blank" >GitHub</a>
                                 <br/>
-                                <a className="footer-nav" href="https://www.linkedin.com/in/stephen-pacyga-247b14202/">LinkedIn</a>
+                                <a className="footer-nav" href="https://www.linkedin.com/in/stephen-pacyga-247b14202/" target="_blank">LinkedIn</a>
                             </div>
                             <div className="col">
                                 <a className="footer-nav" href={resume} className={`resume-download`} download="Stephen-Pacyga-Resume">Résumé download</a>

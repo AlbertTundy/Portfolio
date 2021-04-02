@@ -6,7 +6,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import {HashRouter as Router, Switch, Route} from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 class App extends React.Component{
