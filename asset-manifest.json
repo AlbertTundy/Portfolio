@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b719ea09.chunk.css",
+    "main.css": "/Portfolio/static/css/main.4aeafd35.chunk.css",
     "main.js": "/Portfolio/static/js/main.07906c2e.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.07906c2e.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b2a82178.js",
@@ -12,7 +12,7 @@
     "static/js/3.966f073d.chunk.js.map": "/Portfolio/static/js/3.966f073d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.b719ea09.chunk.css.map": "/Portfolio/static/css/main.b719ea09.chunk.css.map",
+    "static/css/main.4aeafd35.chunk.css.map": "/Portfolio/static/css/main.4aeafd35.chunk.css.map",
     "static/js/2.c4da8410.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c4da8410.chunk.js.LICENSE.txt",
     "static/media/CommunityCarShare.4d255feb.png": "/Portfolio/static/media/CommunityCarShare.4d255feb.png",
     "static/media/burger.f84e038f.png": "/Portfolio/static/media/burger.f84e038f.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.b2a82178.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c4da8410.chunk.js",
-    "static/css/main.b719ea09.chunk.css",
+    "static/css/main.4aeafd35.chunk.css",
     "static/js/main.07906c2e.chunk.js"
   ]
 }
