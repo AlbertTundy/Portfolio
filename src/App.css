@@ -145,6 +145,9 @@ input.textarea {
   color: rgb(22, 22, 22);
   background: rgb(3, 241, 102);
 }
+.success-message {
+  color: rgb(3, 241, 102);
+}
 /*-------------------footer----------------------------------*/
 .footer {
   background: rgb(22, 22, 22);
