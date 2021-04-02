@@ -11,23 +11,51 @@ body {
   width: 100%;
 }
 .navbar {
-  display: flex;
   height: 75px;
   list-style-type: none;
 }
-.navbar_div {
-}
+
 .navbar_item {
   color: rgb(195, 248, 232) !important;
   list-style-type: none;
   text-decoration: none;
 }
+
 /* --------------NAVBAR LINKS ---------------- */
 .nav-link {
   font-weight: 500;
   font-size: x-large;
   color: rgb(195, 248, 232);
   cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: rgb(3, 241, 102);
+  cursor: pointer;
+}
+/*----------------Home-----------------------------*/
+.project {
+  background: rgb(15, 29, 24);
+  width: 100%;
+  height: 100vh;
+}
+.project h1 {
+  color: rgb(3, 241, 102);
+}
+.project p {
+  color: rgb(195, 248, 232);
+}
+/*------------------------Projects page-------------*/
+.project-cont {
+  background: rgb(15, 29, 24);
+  width: 100%;
+  height: 100vh;
+}
+h3 {
+  color: rgb(3, 241, 102);
+}
+.text-color {
+  color: rgb(195, 248, 232);
 }
 /* -----------Project Cards--------- */
 .projectStyles {
@@ -43,8 +71,9 @@ body {
 }
 /*----------Contacts Component-------------*/
 .Contacts {
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(15, 29, 24);
   padding: 3rem 0;
+  height: 100vh;
 }
 .Contacts h1 {
   color: rgb(3, 241, 102);
@@ -85,7 +114,7 @@ body {
   border-bottom: 2px solid rgb(22, 22, 22);
 }
 .Contacts textarea {
-  height: 10rem !important;
+  height: 11.9rem !important;
 }
 .contact-btn {
   margin: 1rem 0 0 0;
@@ -111,4 +140,29 @@ input.form-control {
 }
 input.textarea {
   margin: -0.3rem 0;
+}
+.error-message {
+  color: rgb(22, 22, 22);
+  background: rgb(3, 241, 102);
+}
+/*-------------------footer----------------------------------*/
+.footer {
+  background: rgb(22, 22, 22);
+  color: rgb(195, 248, 232);
+  padding-top: 3rm;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(195, 248, 232);
+}
+.footer a:hover {
+  text-decoration: none;
+  color: rgb(3, 241, 102);
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 0;
 }

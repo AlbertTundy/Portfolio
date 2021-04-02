@@ -12,6 +12,16 @@ class Navbar extends React.Component{
                 <div className="container">
                    <div className = "navbar_div">
                        <ul className = "navbar">
+                           <li className = "navbar_item left-align">
+                               <NavLink 
+                                className = "nav-link"
+                                activeClassName = "active"
+                                isActive = {()=> window.location.pathname === "/Home"}
+                                to = "/Home"
+                               >
+                                Stephen Pacyga
+                               </NavLink>
+                           </li>
                            <li className = "navbar_item">
                                <NavLink 
                                 className = "nav-link"
@@ -22,6 +32,16 @@ class Navbar extends React.Component{
                                 Home
                                </NavLink>
                            </li>
+                           <li className = "navbar_item" >
+                               <NavLink 
+                                className = "nav-link"
+                                activeClassName = "active"
+                                isActive = {()=> window.location.pathname === "/Projects"}
+                                to = "/Projects"
+                               >
+                                Projects
+                               </NavLink>
+                           </li>
                             <li className = "navbar_item">
                                <NavLink 
                                 className = "nav-link"
@@ -30,16 +50,6 @@ class Navbar extends React.Component{
                                 to = "/Contact"
                                >
                                 Contact
-                               </NavLink>
-                           </li>
-                            <li className = "navbar_item" >
-                               <NavLink 
-                                className = "nav-link"
-                                activeClassName = "active"
-                                isActive = {()=> window.location.pathname === "/Projects"}
-                                to = "/Projects"
-                               >
-                                Projects
                                </NavLink>
                            </li>
                        </ul>

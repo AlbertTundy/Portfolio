@@ -4,22 +4,28 @@ import resume from "../files/resume.pdf"
 
 const Home = () => {
     return (
-         <div className="row">
-        <div className="col-sm-12">
-            <div className="row">
-                <p className="wraptext col-sm-12">
-                    <img className="aboutMePic" src={picture} alt="laptop selfi"/>
-                        My name is Stephen I am currently a student at the D.U. Full stack boot camp learning website design. As a former college drop out this is a big step for me. I've spent the last 10 years as a Shift supervisior at Starbucks where I've learned a lot but it's time for a change and this is a very interesting career path.
-                </p>        
-                <p>      What else is there to know about me? here are some highlights. When I was 19 I won a trip to Japan playing cards. I'm a former boyscout and I current Eagle Scout. I visited the twin towers in New York two months before 9/11 but my dad decided it was to expensive to go up. The lobby was pretty nice though. to see more attached is my <a className="linkcolor" href="https://github.com/AlbertTundy">github</a> and my <a className="linkcolor" href="https://www.linkedin.com/in/stephen-pacyga-247b14202/">linkedin profile</a>.
-                
-                  <a href={resume} className={`resume-download`} download="Stephen-Pacyga-Resume">My Resume!</a>
-                
-
-                </p>
-            </div>
+        <div className="project">
+         <div className="container py-5">
+      <div className="row">
+        <div className="col-lg-6 col-xm-12">
+          <div className="photo-wrap mb-5">
+            <img className="aboutMePic" src={picture} alt="laptop selfi"/>
+          </div>
         </div>
+        <div className="col-lg-6 col-xm-12">
+          <h1 className="about-heading">about me</h1>
+          <p>
+            Hello! I am Stephen. I'm currently a student at DU working my way through their full stack web development program. I'm excited to earn my certificate and get out into the work force!
+
+            Right now I've only created 3 custom projects but they have a lot to them considering my limited experience. 
+
+            I'm currently in looking for a job to get started if you have any projects feel free to reach out! 
+
+            
+          </p>
+        </div>
+      </div>
     </div>
-    )
+  </div>)
 }
 export default Home
